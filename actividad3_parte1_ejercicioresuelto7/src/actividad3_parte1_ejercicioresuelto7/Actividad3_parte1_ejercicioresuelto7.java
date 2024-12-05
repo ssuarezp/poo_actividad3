@@ -15,6 +15,8 @@ public class Actividad3_parte1_ejercicioresuelto7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        VentanaPrincipal ventana = new VentanaPrincipal();
+        ventana.setVisible(true);
     }
     
 }
