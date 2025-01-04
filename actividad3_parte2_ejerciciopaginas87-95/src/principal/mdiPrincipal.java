@@ -11,6 +11,10 @@ package principal;
 public class mdiPrincipal extends javax.swing.JFrame {
     private jpFormulario1 objFormulario1 = new jpFormulario1();
     private jpFormulario2 objFormulario2 = new jpFormulario2();
+    private jpFormulario3 objFormulario3 = new jpFormulario3();
+    private jpFormulario4 objFormulario4 = new jpFormulario4();
+    private jpFormulario5 objFormulario5 = new jpFormulario5();
+    private jpFormulario6 objFormulario6 = new jpFormulario6();
     
     private void inicializarFormularios(){
         jifFormulario1.setContentPane(objFormulario1);
@@ -20,6 +24,22 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario2.setContentPane(objFormulario2);
         objFormulario2.setSize(300,300);
         jifFormulario2.setSize(300,300);
+        
+        jifFormulario3.setContentPane(objFormulario3);
+        objFormulario3.setSize(300,300);
+        jifFormulario3.setSize(300,300);
+        
+        jifFormulario4.setContentPane(objFormulario4);
+        objFormulario4.setSize(300,300);
+        jifFormulario4.setSize(300,300);
+        
+        jifFormulario5.setContentPane(objFormulario5);
+        objFormulario5.setSize(300,300);
+        jifFormulario5.setSize(300,300);
+     
+        jifFormulario6.setContentPane(objFormulario6);
+        objFormulario6.setSize(300,300);
+        jifFormulario6.setSize(300,300);
         
     }
     
@@ -41,15 +61,34 @@ public class mdiPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jDesktopPane1 = new javax.swing.JDesktopPane();
         desktopPane = new javax.swing.JDesktopPane();
         jifFormulario1 = new javax.swing.JInternalFrame();
         jifFormulario2 = new javax.swing.JInternalFrame();
-        jDesktopPane1 = new javax.swing.JDesktopPane();
+        jifFormulario3 = new javax.swing.JInternalFrame();
+        jifFormulario4 = new javax.swing.JInternalFrame();
+        jifFormulario5 = new javax.swing.JInternalFrame();
+        jifFormulario6 = new javax.swing.JInternalFrame();
         menuBar = new javax.swing.JMenuBar();
         fileMenu = new javax.swing.JMenu();
         jmiFormulario1 = new javax.swing.JMenuItem();
         jmiFormulario2 = new javax.swing.JMenuItem();
+        jmiFormulario3 = new javax.swing.JCheckBoxMenuItem();
+        jmiFormulario4 = new javax.swing.JCheckBoxMenuItem();
+        jmiFormulario5 = new javax.swing.JCheckBoxMenuItem();
+        jmiFormulario6 = new javax.swing.JCheckBoxMenuItem();
         jmiSalir = new javax.swing.JMenuItem();
+
+        javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
+        jDesktopPane1.setLayout(jDesktopPane1Layout);
+        jDesktopPane1Layout.setHorizontalGroup(
+            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jDesktopPane1Layout.setVerticalGroup(
+            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 280, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -61,11 +100,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario1.getContentPane().setLayout(jifFormulario1Layout);
         jifFormulario1Layout.setHorizontalGroup(
             jifFormulario1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 409, Short.MAX_VALUE)
         );
         jifFormulario1Layout.setVerticalGroup(
             jifFormulario1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 266, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario1);
@@ -79,29 +118,87 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario2.getContentPane().setLayout(jifFormulario2Layout);
         jifFormulario2Layout.setHorizontalGroup(
             jifFormulario2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 410, Short.MAX_VALUE)
         );
         jifFormulario2Layout.setVerticalGroup(
             jifFormulario2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 321, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario2);
         jifFormulario2.setBounds(210, 10, 170, 170);
 
-        javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
-        jDesktopPane1.setLayout(jDesktopPane1Layout);
-        jDesktopPane1Layout.setHorizontalGroup(
-            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+        jifFormulario3.setClosable(true);
+        jifFormulario3.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
+        jifFormulario3.setVisible(false);
+
+        javax.swing.GroupLayout jifFormulario3Layout = new javax.swing.GroupLayout(jifFormulario3.getContentPane());
+        jifFormulario3.getContentPane().setLayout(jifFormulario3Layout);
+        jifFormulario3Layout.setHorizontalGroup(
+            jifFormulario3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 411, Short.MAX_VALUE)
         );
-        jDesktopPane1Layout.setVerticalGroup(
-            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 280, Short.MAX_VALUE)
+        jifFormulario3Layout.setVerticalGroup(
+            jifFormulario3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 304, Short.MAX_VALUE)
         );
 
-        desktopPane.add(jDesktopPane1);
-        jDesktopPane1.setBounds(0, 0, 400, 280);
+        desktopPane.add(jifFormulario3);
+        jifFormulario3.setBounds(0, 0, 180, 150);
+
+        jifFormulario4.setClosable(true);
+        jifFormulario4.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
+        jifFormulario4.setVisible(false);
+
+        javax.swing.GroupLayout jifFormulario4Layout = new javax.swing.GroupLayout(jifFormulario4.getContentPane());
+        jifFormulario4.getContentPane().setLayout(jifFormulario4Layout);
+        jifFormulario4Layout.setHorizontalGroup(
+            jifFormulario4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 411, Short.MAX_VALUE)
+        );
+        jifFormulario4Layout.setVerticalGroup(
+            jifFormulario4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 289, Short.MAX_VALUE)
+        );
+
+        desktopPane.add(jifFormulario4);
+        jifFormulario4.setBounds(250, 40, 240, 200);
+
+        jifFormulario5.setClosable(true);
+        jifFormulario5.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
+        jifFormulario5.setVisible(false);
+
+        javax.swing.GroupLayout jifFormulario5Layout = new javax.swing.GroupLayout(jifFormulario5.getContentPane());
+        jifFormulario5.getContentPane().setLayout(jifFormulario5Layout);
+        jifFormulario5Layout.setHorizontalGroup(
+            jifFormulario5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 398, Short.MAX_VALUE)
+        );
+        jifFormulario5Layout.setVerticalGroup(
+            jifFormulario5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 299, Short.MAX_VALUE)
+        );
+
+        desktopPane.add(jifFormulario5);
+        jifFormulario5.setBounds(150, 50, 320, 270);
+
+        jifFormulario6.setClosable(true);
+        jifFormulario6.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
+        jifFormulario6.setVisible(false);
+
+        javax.swing.GroupLayout jifFormulario6Layout = new javax.swing.GroupLayout(jifFormulario6.getContentPane());
+        jifFormulario6.getContentPane().setLayout(jifFormulario6Layout);
+        jifFormulario6Layout.setHorizontalGroup(
+            jifFormulario6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 433, Short.MAX_VALUE)
+        );
+        jifFormulario6Layout.setVerticalGroup(
+            jifFormulario6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 306, Short.MAX_VALUE)
+        );
+
+        desktopPane.add(jifFormulario6);
+        jifFormulario6.setBounds(140, 50, 290, 230);
 
         fileMenu.setMnemonic('f');
         fileMenu.setText("Archivo");
@@ -129,6 +226,42 @@ public class mdiPrincipal extends javax.swing.JFrame {
         });
         fileMenu.add(jmiFormulario2);
 
+        jmiFormulario3.setSelected(true);
+        jmiFormulario3.setText("Formulario 3");
+        jmiFormulario3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiFormulario3ActionPerformed(evt);
+            }
+        });
+        fileMenu.add(jmiFormulario3);
+
+        jmiFormulario4.setSelected(true);
+        jmiFormulario4.setText("Formulario 4");
+        jmiFormulario4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiFormulario4ActionPerformed(evt);
+            }
+        });
+        fileMenu.add(jmiFormulario4);
+
+        jmiFormulario5.setSelected(true);
+        jmiFormulario5.setText("Formulario 5");
+        jmiFormulario5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiFormulario5ActionPerformed(evt);
+            }
+        });
+        fileMenu.add(jmiFormulario5);
+
+        jmiFormulario6.setSelected(true);
+        jmiFormulario6.setText("Formulario 6");
+        jmiFormulario6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiFormulario6ActionPerformed(evt);
+            }
+        });
+        fileMenu.add(jmiFormulario6);
+
         jmiSalir.setMnemonic('x');
         jmiSalir.setText("Exit");
         jmiSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -146,11 +279,15 @@ public class mdiPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 661, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 279, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -173,6 +310,26 @@ public class mdiPrincipal extends javax.swing.JFrame {
     private void fileMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fileMenuActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fileMenuActionPerformed
+
+    private void jmiFormulario3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiFormulario3ActionPerformed
+        // TODO add your handling code here:
+        jifFormulario3.setVisible(true);
+    }//GEN-LAST:event_jmiFormulario3ActionPerformed
+
+    private void jmiFormulario4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiFormulario4ActionPerformed
+        // TODO add your handling code here:
+        jifFormulario4.setVisible(true);
+    }//GEN-LAST:event_jmiFormulario4ActionPerformed
+
+    private void jmiFormulario6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiFormulario6ActionPerformed
+        // TODO add your handling code here:
+        jifFormulario6.setVisible(true);
+    }//GEN-LAST:event_jmiFormulario6ActionPerformed
+
+    private void jmiFormulario5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiFormulario5ActionPerformed
+        // TODO add your handling code here:
+        jifFormulario5.setVisible(true);
+    }//GEN-LAST:event_jmiFormulario5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -222,8 +379,16 @@ public class mdiPrincipal extends javax.swing.JFrame {
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JInternalFrame jifFormulario1;
     private javax.swing.JInternalFrame jifFormulario2;
+    private javax.swing.JInternalFrame jifFormulario3;
+    private javax.swing.JInternalFrame jifFormulario4;
+    private javax.swing.JInternalFrame jifFormulario5;
+    private javax.swing.JInternalFrame jifFormulario6;
     private javax.swing.JMenuItem jmiFormulario1;
     private javax.swing.JMenuItem jmiFormulario2;
+    private javax.swing.JCheckBoxMenuItem jmiFormulario3;
+    private javax.swing.JCheckBoxMenuItem jmiFormulario4;
+    private javax.swing.JCheckBoxMenuItem jmiFormulario5;
+    private javax.swing.JCheckBoxMenuItem jmiFormulario6;
     private javax.swing.JMenuItem jmiSalir;
     private javax.swing.JMenuBar menuBar;
     // End of variables declaration//GEN-END:variables
