@@ -18,28 +18,28 @@ public class mdiPrincipal extends javax.swing.JFrame {
     
     private void inicializarFormularios(){
         jifFormulario1.setContentPane(objFormulario1);
-        objFormulario1.setSize(300,300);
-        jifFormulario1.setSize(300,300);
+        objFormulario1.setSize(600,400);
+        jifFormulario1.setSize(600,400);
         
         jifFormulario2.setContentPane(objFormulario2);
-        objFormulario2.setSize(300,300);
-        jifFormulario2.setSize(300,300);
+        objFormulario2.setSize(600,400);
+        jifFormulario2.setSize(600,400);
         
         jifFormulario3.setContentPane(objFormulario3);
-        objFormulario3.setSize(300,300);
-        jifFormulario3.setSize(300,300);
+        objFormulario3.setSize(600,400);
+        jifFormulario3.setSize(600,400);
         
         jifFormulario4.setContentPane(objFormulario4);
-        objFormulario4.setSize(300,300);
-        jifFormulario4.setSize(300,300);
+        objFormulario4.setSize(600,400);
+        jifFormulario4.setSize(600,400);
         
         jifFormulario5.setContentPane(objFormulario5);
-        objFormulario5.setSize(300,300);
-        jifFormulario5.setSize(300,300);
+        objFormulario5.setSize(600,400);
+        jifFormulario5.setSize(600,400);
      
         jifFormulario6.setContentPane(objFormulario6);
-        objFormulario6.setSize(300,300);
-        jifFormulario6.setSize(300,300);
+        objFormulario6.setSize(600,400);
+        jifFormulario6.setSize(600,400);
         
     }
     
@@ -100,11 +100,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario1.getContentPane().setLayout(jifFormulario1Layout);
         jifFormulario1Layout.setHorizontalGroup(
             jifFormulario1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 409, Short.MAX_VALUE)
+            .addGap(0, 158, Short.MAX_VALUE)
         );
         jifFormulario1Layout.setVerticalGroup(
             jifFormulario1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 266, Short.MAX_VALUE)
+            .addGap(0, 124, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario1);
@@ -118,11 +118,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario2.getContentPane().setLayout(jifFormulario2Layout);
         jifFormulario2Layout.setHorizontalGroup(
             jifFormulario2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 410, Short.MAX_VALUE)
+            .addGap(0, 158, Short.MAX_VALUE)
         );
         jifFormulario2Layout.setVerticalGroup(
             jifFormulario2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 321, Short.MAX_VALUE)
+            .addGap(0, 134, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario2);
@@ -136,11 +136,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario3.getContentPane().setLayout(jifFormulario3Layout);
         jifFormulario3Layout.setHorizontalGroup(
             jifFormulario3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 411, Short.MAX_VALUE)
+            .addGap(0, 168, Short.MAX_VALUE)
         );
         jifFormulario3Layout.setVerticalGroup(
             jifFormulario3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 304, Short.MAX_VALUE)
+            .addGap(0, 114, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario3);
@@ -154,11 +154,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario4.getContentPane().setLayout(jifFormulario4Layout);
         jifFormulario4Layout.setHorizontalGroup(
             jifFormulario4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 411, Short.MAX_VALUE)
+            .addGap(0, 228, Short.MAX_VALUE)
         );
         jifFormulario4Layout.setVerticalGroup(
             jifFormulario4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 289, Short.MAX_VALUE)
+            .addGap(0, 164, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario4);
@@ -172,11 +172,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario5.getContentPane().setLayout(jifFormulario5Layout);
         jifFormulario5Layout.setHorizontalGroup(
             jifFormulario5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 398, Short.MAX_VALUE)
+            .addGap(0, 308, Short.MAX_VALUE)
         );
         jifFormulario5Layout.setVerticalGroup(
             jifFormulario5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 299, Short.MAX_VALUE)
+            .addGap(0, 234, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario5);
@@ -190,11 +190,11 @@ public class mdiPrincipal extends javax.swing.JFrame {
         jifFormulario6.getContentPane().setLayout(jifFormulario6Layout);
         jifFormulario6Layout.setHorizontalGroup(
             jifFormulario6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 433, Short.MAX_VALUE)
+            .addGap(0, 278, Short.MAX_VALUE)
         );
         jifFormulario6Layout.setVerticalGroup(
             jifFormulario6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 306, Short.MAX_VALUE)
+            .addGap(0, 194, Short.MAX_VALUE)
         );
 
         desktopPane.add(jifFormulario6);
@@ -280,13 +280,13 @@ public class mdiPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 661, Short.MAX_VALUE)
+                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 888, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
+                .addComponent(desktopPane, javax.swing.GroupLayout.DEFAULT_SIZE, 510, Short.MAX_VALUE)
                 .addContainerGap())
         );
 

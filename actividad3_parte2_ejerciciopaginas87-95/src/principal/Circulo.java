@@ -34,4 +34,8 @@ public class Circulo {
         return 2*Math.PI*radio;
     }
     
+    static String limpiarCampo(){
+        return "";
+    }
+    
 }
